@@ -2,8 +2,11 @@
 """
 Created on Sat Oct  5 23:27:16 2019
 
-@author: Kenng
+@author: Kenneth Ng
+@email: kenng7183@gmail.com
+@github: kennethng555
 """
+
 import os
 import psutil
 import time
