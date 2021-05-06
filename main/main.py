@@ -359,7 +359,7 @@ if __name__ == '__main__':
     # original = sys.stdout
     # sys.stdout = open('events.txt', 'w')
 
-    file = "C:/Users/Kenng/Downloads/test.csv"
+    file = "data/Test.csv"
     print('input file: ', file)
     df = pd.read_csv(file)
     threshold = 2
