@@ -35,7 +35,7 @@ class Tree(object):
         num_dim = len(df.columns) - 1
         for i in range(len(df)):
             for j in range(num_dim - 1):
-                if (self.head.get_left() == None):
+                if self.head.get_left() == None:
                     new_left = Node(data=df.iloc[i, j], count=df.iloc[i, num_dim], parent=self.head, depth=j)
                     self.head.set_left(new_left)
                     self.head = self.head.get_left()
